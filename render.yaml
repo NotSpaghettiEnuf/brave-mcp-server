@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: brave-mcp
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: npm start
