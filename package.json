@@ -2,6 +2,6 @@
   "name": "brave-mcp-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx @modelcontextprotocol/server-brave-search"
+    "start": "PORT=10000 npx @modelcontextprotocol/server-brave-search"
   }
 }
